@@ -1,0 +1,21 @@
+body{
+    background-image: url(bg.jpg);
+}
+canvas{
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 3px;
+    border-color: white;
+}
+#heading{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+}
+canvas{
+    animation-name: canvas;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas{
+    from{box-shadow: 5px 5px 38px red;}
+    to{box-shadow: 5px 5px 38px rgb(0, 174, 255);}
+}
